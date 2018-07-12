@@ -1,0 +1,430 @@
+/*Start custom framework*/
+.ar-font
+{
+	font-family: 'Cairo', sans-serif;
+}
+.en-font
+{
+	font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+.en2-font
+{
+	font-family: 'Playball', cursive
+}
+.color1
+{
+	color: #000
+}
+.color2
+{
+	color: #4f2525
+}
+.color3
+{
+	color: #fff
+}
+.color4
+{
+	color: #e0e0e0
+}
+.color5
+{
+	color: #eace88;
+}
+.background1
+{
+	background-color: #428956           /*#4f2525*/
+}
+.background2
+{
+	background-color: #218922                  /*#301515*/
+}
+.background3
+{
+	background-color: #fff
+}
+.background4
+{
+	background-color: #e0e0e0
+}
+.background5
+{
+	background-color: #f4ebeb
+}
+.background6
+{
+	background-color: #eace88;
+}
+.background7
+{
+	background-color: #1c0a0a;
+}
+.background-img
+{
+	background-image: url('')
+}
+/*End custom framework*/
+
+/*Start decorate my elements*/
+header.myHead
+{
+	height: 135px
+}
+header.myHead section.addr
+{
+	padding-top: 7px;
+	padding-left: 50px
+}
+header.myHead section.addr a
+{
+	font-size: 2.5em
+}
+header.myHead section.addr span
+{
+	font-size: 80px;
+	position: relative;
+	top: -47px;
+	left: -25px
+}
+header.myHead section.flex
+{
+	padding-top: 22px;
+	padding-right: 40px
+}
+header.myHead section.flex div input[type = 'search']
+{
+	resize: none;
+	width: 300px;
+	height: 40px;
+	padding-left: 7px;
+	border: 2px solid #ccc;
+	border-right: 0;
+}
+header.myHead section.flex div i
+{
+	width: 60px;
+	height: 40px;
+	padding-top: 7px
+}
+header.myHead section.flex p.exp
+{
+	padding: 5px;
+	margin-top: 10px;
+	position: relative;
+}
+header.myHead section.flex p.vali
+{
+	padding: 10px;
+	position: absolute;
+	top: 80px;
+	right: 120px;
+	z-index: 2;
+}
+header.myHead section.flex p.vali:after
+{
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 18px;
+	border-style: solid;
+	border-color: transparent transparent #428956;
+	position: absolute;
+	top: -35px;
+	left: 0;
+}
+.hide-vali
+{
+	opacity: 0
+}
+main.content
+{
+	height: 5000px;
+	position: relative;
+	border-top: 5px solid #428956;
+	border-bottom: 5px solid #428956;
+}
+main.content ul.nav-bar
+{
+	width: 10%;
+	height: 100%;
+	padding-top: 30px
+}
+main.content ul.nav-bar li
+{
+	padding-bottom: 35px
+}
+main.content ul.nav-bar li a:hover
+{
+	color: #fff
+}
+main.content article.article
+{
+	width: 65%;
+	height: 100%
+}
+main.content article.article div.my-container section >img
+{
+	width: 100%;
+	height: 400px
+}
+main.content article.article div.my-container section >a
+{
+	padding-left: 30px
+}
+main.content article.article div.my-container section div.chris ,
+main.content article.article div.my-container section.fit-txt div.more-detail ,
+main.content article.article div.my-container section.offs div.more-detail
+{
+	padding: 10px;
+	padding-left: 30px
+}
+main.content article.article div.my-container section.fit-txt p ,
+main.content article.article div.my-container section.serverless p ,
+main.content article.article div.my-container section.offs p
+{
+	padding: 20px 30px 0;
+	line-height: 1.8
+}
+main.content article.article div.my-container section.fit-txt a.more ,
+main.content article.article div.my-container section.offs a.more
+{
+	padding-bottom: 30px
+}
+main.content article.article div.my-container section.fit-txt div.more-detail a ,
+main.content article.article div.my-container section.offs div.more-detail a
+{
+	padding-right: 15px;
+}
+main.content article.article div.my-container section
+{
+	margin-top: 50px;
+}
+main.content article.article div.my-container section:first-of-type
+{
+	margin-top: 10px;
+}
+main.content article.article div.my-container section.good-support p.support
+{
+	padding-left: 30px;
+}
+main.content article.article div.my-container section.good-support p.support:first-of-type
+{
+	padding-top: 20px;
+}
+main.content article.article div.my-container section.good-support div.box-figure
+{
+	width: 90%;
+	border-left: 10px solid #ccc;
+	padding: 25px 30px 5px;
+}
+main.content article.article div.my-container section.good-support div.box-figure p
+{
+	padding: 4px;
+}
+main.content article.article div.my-container section.good-support p.spectrum
+{
+	padding: 30px;
+}
+main.content article.article div.my-container section.serverless ul.links
+{
+	padding: 5px;
+	padding-left: 30px;
+	margin: 0;
+	list-style-position: inside
+}
+main.content article.article div.my-container section.serverless ul.links h4
+{
+	padding-bottom: 10px;
+}
+main.content article.article div.my-container section.serverless ul.links li
+{
+	padding: 5px;
+	padding-left: 30px;
+}
+main.content article.article div.my-container section.serverless ul.links li.item6 span
+{
+	position: relative;
+	right: -23px;
+}
+main.content article.article div.my-container section.offs p span
+{
+	padding-top: 15px;
+}
+main.content article.article div.my-container section.offs p.bloat
+{
+	padding-top: 0;
+}
+main.content article.article button.stuf-btn
+{
+	width: 250px;
+	height: 50px;
+	margin-top: 80px;
+	margin-bottom: 150px;
+	outline: 0;
+	border: 2px solid #777;
+}
+main.content div.images
+{
+	width: 25%;
+	height: 100%;
+}
+main.content div.images a
+{
+	width: 90%;
+	margin: 10px auto;
+	margin-bottom: 30px
+}
+main.content div.images a img
+{
+	width: 100%
+}
+main.content div.images a:last-of-type
+{
+	margin-bottom: 0;
+}
+main.content div.images p
+{
+	padding: 20px;
+	width: 90%
+}
+main.content footer.footer
+{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top: 4200px;
+	left: 0
+}
+main.content footer.footer div.subscribe
+{
+	height: 130px;
+	background-color: rgba(0, 0, 0, .7);
+	padding-top: 35px;
+}
+main.content footer.footer div.subscribe h2
+{
+	padding-left: 150px;
+	padding-right: 120px
+}
+main.content footer.footer div.subscribe form
+{
+	padding-top: 8px;
+	padding-right: 25px;
+}
+main.content footer.footer div.subscribe form input
+{
+	width: 250px;
+	height: 43px;
+	margin-right: 5px;
+	padding-left: 7px;
+}
+main.content footer.footer div.subscribe form button
+{
+	height: 43px;
+	width: 170px;
+	border: 0;
+	outline: 0
+}
+main.content footer.footer div.subscribe p
+{
+	padding-top: 5px;
+}
+main.content footer.footer div.mediate
+{
+	height: 130px;
+	background: rgba(0, 0, 0, .9);
+	padding-top: 25px;
+	padding-left: 450px;
+}
+main.content footer.footer div.mediate a img
+{
+	width: 550px;
+}
+main.content footer.footer div.mediate a:last-of-type
+{
+	width: 300px;
+	padding-left: 25px;
+}
+main.content footer.footer div.last-sec
+{
+	height: 540px
+}
+main.content footer.footer div.last-sec div
+{
+	height: 100%;
+}
+main.content footer.footer div.last-sec div.star
+{
+	width: 10%;
+	position: relative;
+}
+main.content footer.footer div.last-sec div.star span
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 4em;
+}
+main.content footer.footer div.last-sec div.links
+{
+	width: 65%
+}
+main.content footer.footer div.last-sec div.links div:first-of-type
+{
+	height: 60%;
+	padding-top: 40px;
+}
+main.content footer.footer div.last-sec div.links div:first-of-type p
+{
+	padding: 20px;
+	padding-bottom: 5px;
+}
+main.content footer.footer div.last-sec div.links div:first-of-type div.twitter
+{
+	padding: 20px;
+}
+main.content footer.footer div.last-sec div.links div:first-of-type div.twitter a
+{
+	padding: 7px;
+	margin-right: 4px;
+}
+main.content footer.footer div.last-sec div.links div:nth-of-type(2)
+{
+	height: 40%;
+	padding-top: 50px;
+	padding-left: 20px;
+}
+main.content footer.footer div.last-sec div.links div:nth-of-type(2) div
+{
+	width: 33.33%;
+	padding: 0;
+}
+main.content footer.footer div.last-sec div.links div:nth-of-type(2) div a
+{
+	padding: 2px;
+}
+main.content footer.footer div.last-sec div.btns
+{
+	width: 25%;
+	padding-top: 50px;
+	padding-left: 20px;
+}
+main.content footer.footer div.last-sec div.btns a
+{
+	padding-bottom: 15px;
+}
+main.content footer.footer div.last-sec div.btns button
+{
+	width: 230px;
+	height: 45px;
+	margin: 15px auto;
+	border: 0;
+	outline: 0;
+}
+main.content footer.footer div.last-sec div.btns button:hover
+{
+	background: black;
+}
+/*End decorate my elements*/

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang = 'en-US'>
+	<head>
+		<meta charset='UTF-8' />
+		<meta name='description' content='welcome to my website' />
+		<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+		<title>CSS-Tricks</title>
+		<!-- Start getting bootstrap framework -->
+		<link rel='stylesheet' href='styles/bootstrap.min.css' />
+		<!-- End getting bootstrap framework -->
+
+		<!-- Start getting my custom framework -->
+		<link rel='stylesheet' href='styles/custom_framework.css' />
+		<!-- End getting my custom framework -->
+
+		<!-- Strat geting my custom css file -->
+		<link rel='stylesheet' href='styles/index.css' />
+		<!-- End geting my custom css file -->
+
+		<!-- Start geting fontAwesome library for using icons -->
+        <link rel='stylesheet' href='styles/fontawesome-all.min.css' />
+        <!-- End geting fontAwesome library for using icons -->
+
+        <!-- Start geting favicon image -->
+        <link rel='icon' href='styles/favicon.ico' />
+        <!-- End geting favicon image -->
+
+		<!--[if lt IE 9]>
+	    <script src="scripts/html5shiv.min.js"></script>
+        <![endif]-->
+
+        <!-- Start geting arabic font-->
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cairo' />
+        <!-- Start geting arabic font-->
+
+        <!-- Start geting english font-->
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cairo|Noto+Sans' />
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playball'>
+        <!-- Start geting english font-->
+
+	</head>
+	<body class='en-font ar-font font-sm'>
+		<header class='myHead overflow'>
+			<section class='addr float-left overflow'>
+				<span class='color2 float-left head-decor'>*</span>
+				<a href='#' class='float-left head-decor letter-space'>CSS-Tricks</a>
+			</section>
+			<section class='flex float-right'>
+				<div class='overflow'>
+					<input type='search' placeholder='Search' class='float-left ' id = 'texBox' onfocus='addVali("texBox", "vali")' onblur='hideVali("vali")' oninput='hideVali("vali")' />
+					<i class='fas fa-search color1 background4 float-left font-lg text-center cursor' onclick='addVali("texBox", "vali")'></i>
+				</div>
+				<p class='exp color3 background1 text-center letter-space'>
+				    This is Elasticsearch powered by jetback
+			    </p>
+			    <p class='vali hide-vali text-center color3 background1 font-md transition' id='vali'>
+				    Please fill out this feild
+				</p>
+			</section>
+		</header>
+		<main class='content overflow'>
+			<ul class='nav-bar float-left background1 ul-unstyle text-center text-upper'>
+				<li class='item1 display-block'>
+					<a href='#' class='display-block color3 font-xlg cursor'>
+						<i class='fas fa-home'></i>
+					</a>
+					<a href='#' class='display-block color4 transition'>home</a>
+				</li>
+				<li class='item2 display-block'>
+					<a href='#' class='display-block color3 font-xlg cursor'>
+						<i class='fas fa-address-book'></i>
+					</a>
+					<a href='#' class='display-block color4 transition'>videos</a>
+				</li>
+				<li class='item3 display-block'>
+					<a href='#' class='display-block color3 font-xlg cursor'>
+						<i class='fab fa-affiliatetheme'></i>
+					</a>
+					<a href='#' class='display-block color4 transition'>almanak</a>
+				</li>
+				<li class='item4 display-block'>
+					<a href='#' class='display-block color3 font-xlg cursor'>
+						<i class='fab fa-android'></i>
+					</a>
+					<a href='#' class='display-block color4 transition'>gallery</a>
+				</li>
+				<li class='item5 display-block'>
+					<a href='#' class='display-block color3 font-xlg cursor'>
+						<i class='fas fa-archive'></i>
+					</a>
+					<a href='#' class='display-block color4 transition'>snippets</a>
+				</li>
+				<li class='item6 display-block'>
+					<a href='#' class='display-block color3 font-xlg cursor'>
+						<i class='fas fa-cart-arrow-down'></i>
+					</a>
+					<a href='#' class='display-block color4 transition'>forums</a>
+				</li>
+				<li class='item7 display-block'>
+					<a href='#' class='display-block color3 font-xlg cursor'>
+						<i class='far fa-address-card'></i>
+					</a>
+					<a href='#' class='display-block color4 transition'>newsletter</a>
+				</li>
+				<li class='item8 display-block'>
+					<a href='#' class='display-block color3 font-xlg cursor'>
+						<i class='fas fa-file-alt'></i>
+					</a>
+					<a href='#' class='display-block color4 transition'>jobs</a>
+				</li>
+				<li class='item9 display-block'>
+					<a href='#' class='display-block color3 font-xlg cursor'>
+						<i class='fab fa-accusoft'></i>
+					</a>
+					<a href='#' class='display-block color4 transition'>guides</a>
+				</li>
+			</ul>
+			<article class = 'article float-left background4'>
+				<div class = 'my-container'>
+					<section class='fit-txt background3'>
+						<img src='images/fit-text.gif' title='fit-text' alt='fit-text-img' class='display-block'>
+						<a href='#' class='head-decor text-capital'>fitting text to a container</a>
+						<div class='chris background2'>
+							<span class='color3 letter-space text-upper'>
+								<span class='color4 letter-space'>#</span>
+								 june 29, 2018 by 
+								<a href='#' class='letter-space'>chris coyeir</a>
+							</span>
+						</div>
+						<p>There are a number of ways to go about putting some text in a container and having it size itself to fill that container. There are different technologies we can use and different considerations to think about. Let us count the ways.</p>
+						<a href='#' class='more font-md display-inln-block'>(More...)</a>
+						<div class='more-detail background2 text-upper'>
+							<a href='#' class='color4'>fluid type</a>
+							<a href='#' class='color4'>text effect</a>
+							<a href='#' class='color4'>text-justify</a>
+						</div>
+					</section>
+					<section class='good-support background3'>
+						<img src='images/support-requests_hjsfu2.png' title='support-requests' alt='support-requests-img' class='display-block'>
+						<a href='#' class='head-decor text-capital'>writing good support requests</a>
+						<div class='chris background2'>
+							<span class='color3 letter-space text-upper'>
+								<span class='color4 letter-space'>#</span>
+								 july 2, 2018 by 
+								<a href='#' class='letter-space'>chris coyeir</a>
+							</span>
+						</div>
+						<p class='support'>My take on trying to be helpful to a support staff.</p>
+						<p class='support'>One bit is just as relevant for learning development:</p>
+						<div class='box-figure margin-auto background1 color3'>
+							<p>Writing out a ticket will help you figure out the problem.</p>
+							<p>Sometimes when you have to take a second to collect your thoughts and explain something, the problem will become clear and maybe even the solution. Oftentimes, a bug is a bug and just needs to be fixed — but sometimes your support ticket might actually be something you can sort out for yourself and writing things out might be the first step toward that.</p>
+							<p>You know what they say, the best way to learn something is to teach it.</p>
+						</div>
+						<p class='spectrum'>Just replace "ticket" with "forum topic" or whatever, on something like <a href='#'>Spectrum</a></p>
+					</section>
+					<section class='serverless background3'>
+						<img src='https://res.cloudinary.com/css-tricks/image/upload/c_scale,w_1000,f_auto,q_auto/v1530898982/42067494-5c4c2b94-7afb-11e8-91b4-0bef66d85584_jllmo0.png' title='' alt='' class=''>
+						<a href='#' class='head-decor text-capital'>#163:first steps with serverless</a>
+						<div class='chris background2'>
+							<span class='color3 letter-space text-upper'><span class='color4'>#</span> july 6, 2018 by <a href='#' class='letter-space'>chris coyeir</a></span>
+						</div>
+						<p>David Wells, from <a href='#'>Netlify</a>, and I take some baby steps into building things with Serverless. We'll mostly be looking at cloud functions here and how using them from an otherwise static hosting environment means you've unlocked all sorts of possibilities.</p>
+						<ul class='links'>
+							<h4>Links from the video:</h4>
+							<li class="item1">
+								<a href="">Webtask</a>
+							</li>
+							<li class="item2">
+								<a href="">Code.xyz</a>
+							</li>
+							<li class="item3">
+								<a href="">Netlify's support of cloud functions</a>
+							</li>
+							<li class="item4">
+								<a href="">The Power of Serverless for Front-End Developers</a>
+							</li>
+							<li class="item5">
+								<a href="">create-react-app-lambda</a>
+							</li>
+							<li class="item6">
+								The TODO list example, using <a href='#'>netlify-faunadb-example.</a> "This application is <span>using <a href='#'>React</a> for the frontend, Netlify Functions for API calls, and <a href='#'>FaunaDB</a> as the backing database."</span>
+							</li>
+						</ul>
+					</section>
+					<section class='offs background3'>
+						<img src='images/components_bgxbzd.png' title='' alt='' class=''>
+						<a href='#' class='head-decor text-capital'>one-offs</a>
+						<div class='chris background2'>
+							<span class='color3 letter-space text-upper'><span class='color4'>#</span> july 2, 2018 by <a href='#' class='letter-space'>chris coyeir</a></span>
+						</div>
+						<p>There is this sentiment that you don't design the homepage of a site first. For most sites, it's an anomaly. It's unlike any other page and not something to base the patterns you use for the rest of the site or help inform other pages.
+							<span class='display-block'>You might call it a one-off.
+								<sup class='color2'>1</sup>
+							</span>
+						</p>
+						<p class='bloat'>One-offs are OK! A world without one-offs is very boring. But a site chock-full of one-offs leads to familiar problems: inconsistency and non-reusable CSS that leads to bloating and maintainers that don't really know <a href='#'>what's used and what isn't.</a></p>
+						<a href='#' class='more font-md display-inln-block'>(More...)</a>
+						<div class='more-detail background2 text-upper'>
+							<a href='#' class='color4'>atomic</a>
+							<a href='#' class='color4'>components</a>
+							<a href='#' class='color4'>design-patterns</a>
+						</div>
+					</section>
+				</div>
+				<button class='stuf-btn display-block margin-auto color1 background3 font-md border-radius-norm cursor'>
+					<i class="fas fa-arrow-alt-circle-left"></i>
+					<span class='text-upper'>older-stuf</span>
+				</button>
+			</article>
+			<div class='images float-left background5'>
+				<a href='#' class='display-block'>
+					<img src='images/mids_600x500_lm.gif' title='' alt='' class='display-block' />
+				</a>
+				<a href='#'class='display-block'>
+					<img src='images/wufoo-clocks.png' title='' alt='' />
+				</a>
+				<a href='#'class='display-block'>
+					<img src='images/monday-for-designers.png' title='' alt='' class='display-block' />
+				</a>
+				<p class='background4 margin-auto'><a href='#'>Wufoo</a> powers all our web forms here at CSS-Tricks.</p>
+			</div>
+			<footer class='footer'>
+				<div class='subscribe overflow'>
+					<h2 class='float-left font-xlg color5 en2-font'>get the newsletter!</h2>
+					<form class='float-left'>
+						<input class='border-radius-norm'/>
+						<button class='text-upper font-md cursor color1 background6 border-radius-norm'>subscribe</button>
+					</form>
+					<p class='flow-left color4'>
+						Lots of great stuff that isn't published anywhere else!
+					</p>
+				</div>
+				<div class='mediate'>
+					<a href='#' class='float-left'>
+						<img src='https://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-16/images/mediatemple-logo-white-superwide.svg' title='' alt='' class=''>
+					</a>
+					<a href='#' class='color3 float-left'>CSS-Tricks web host since day one. Save 20% with code <span class='text-upper color5'>csstricks</span></a>
+				</div>
+				<div class='last-sec overflow'>
+					<div class='star float-left background4'>
+						<span class='display-block background7 color3 text-center'>*</span>
+					</div>
+					<div class='links float-left background3'>
+						<div class='background7 color3'>
+							<p>CSS-Tricks* is created, written by, and maintained by <a href='#'>Chris Coyier</a> and <a href='#'>a team</a> of swell people. It is built on <a href='#'>WordPress</a>, hosted by <a href='#'>Media Temple</a>, and the assets are served by <a href='#'>MaxCDN</a>. It is made possible through <a href='#'>sponsorships</a> from products and services we like.</p>
+							<p>*May or may not contain any actual "CSS" or "Tricks".</p>
+							<div class='twitter'>
+								<a href='#' class='background2 color3'>
+									<i class="fab fa-twitter"></i>
+								    Follow @Real_CSS_TRICKS
+								</a>
+								<a href='#' class='background3 color1'>363K Followers</a>
+						    </div>
+						</div>
+						<div class='background3 overflow'>
+							<div class='float-left color1'>
+								<a href="#" class='text-upper display-block font-md'>contact</a>
+								<a href="#" class='text-upper display-block font-md'>advertise</a>
+								<a href="#" class='text-upper display-block font-md'>subscribe</a>
+						    </div>
+						    <div class='float-left color1'>
+								<a href="#" class='text-upper display-block font-md'>about</a>
+								<a href="#" class='text-upper display-block font-md'>jobs</a>
+								<a href="#" class='text-upper display-block font-md'>random</a>
+						    </div>
+						    <div class='float-left color1'>
+								<a href="#" class='text-upper display-block font-md'>archives</a>
+								<a href="#" class='text-upper display-block font-md'>license</a>
+								<a href="#" class='text-upper display-block font-md'>guest posting</a>
+						    </div>
+						</div>
+					</div>
+					<div class='btns float-left background5'>
+						<h2 class='head-decor text-capital'>front-end jobs</h2>
+						<a href='#' class='color1 display-block'>
+							<span class='color6 font-weight'>WeTransfer</span> 
+							 is hiring a Front End Engineer
+						</a>
+						<a href='#' class='color1 display-block'>
+							<span class='color6 font-weight'>Lullabot</span> 
+							 is hiring a Front-End Drupal Developer
+						</a>
+						<a href='#' class='color1 display-block'>
+							<span class='color6 font-weight'>Rain</span>
+							 is hiring a Front End Developer
+						</a>
+						<button class='color3 background2 cursor display-block font-md transition border-radius-norm'>see more jobs</button>
+						<button class='color3 background2 cursor display-block font-md transition border-radius-norm'>post a job</button>
+					</div>
+				</div>
+			</footer>
+		</main>
+		<!-- Start geting jQuery library -->
+		<script src='scripts/jQuery_plugin.js'></script>
+		<!-- End geting jQuery library -->
+
+		<!-- Start geting bootstrap framework-->
+		<script src='scripts/bootstrap.min.js'></script>
+		<!-- End geting bootstrap framework-->
+
+		<!-- Start getting my custom js file -->
+		<script src='scripts/index.js'></script>
+		<!-- End getting my custom js file -->
+	</body>
+</html>

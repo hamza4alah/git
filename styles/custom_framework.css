@@ -1,0 +1,207 @@
+/*Strat custom framework*/
+.text-center
+{
+	text-align: center
+}
+.text-left
+{
+	text-align: left
+}
+.text-right
+{
+	text-align: right
+}
+.margin-auto
+{
+	margin: auto
+}
+.display-inln
+{
+	display: inline
+}
+.display-inln-block
+{
+	display: inline-block
+}
+.display-block
+{
+	display: block
+}
+.display-none
+{
+	display: none
+}
+.ul-unstyle
+{
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+.font-sm
+{
+	font-size: 16px
+}
+.font-md
+{
+	font-size: 20px
+}
+.font-lg
+{
+	font-size: 24px
+}
+.font-xlg
+{
+	font-size: 45px
+}
+.font-weight
+{
+	font-weight: 900
+}
+.letter-space
+{
+	letter-spacing: 1.4px;
+}
+.text-capital
+{
+	text-transform: capitalize	
+}
+.text-upper
+{
+	text-transform: uppercase	
+}
+.text-lower
+{
+	text-transform: lowercase	
+}
+.transition
+{
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+	     -o-transition: all .4s ease-in-out;
+	    -ms-transition: all .4s ease-in-out;
+	        transition: all .4s ease-in-out;
+}
+.opacity-hide
+{
+	opacity: 0
+}
+.opacity-show
+{
+	opacity: 1
+}
+.opacity-md
+{
+	opacity: .5
+}
+.transform
+{
+	-webkit-perspective: 600px;
+	   -moz-perspective: 600px;
+	     -o-perspective: 600px;
+	    -ms-perspective: 600px;
+	        perspective: 600px;
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	     -o-transform-style: preserve-3d;
+	    -ms-transform-style: preserve-3d;
+	        transform-style: preserve-3d
+}
+.border-radius-norm
+{
+	border-radius: 10px
+}
+.border-radius-circl
+{
+	border-radius: 50%
+}
+.cursor
+{
+	cursor: pointer
+}
+.outline
+{
+	outline: 0
+}
+.bord
+{
+	border: 1px solid #000
+}
+.border-hide
+{
+	border: 0
+}
+.float-left
+{
+	float: left
+}
+.float-right
+{
+	float: right
+}
+.float-none
+{
+	float: none
+}
+.overflow
+{
+	overflow: hidden
+}
+.clear
+{
+	clear: both
+}
+input:focus
+{
+	outline: 0
+}
+input:focus::-webkit-input-placeholder
+{
+	transform: translatey(-50px);
+	opacity: 0;
+	transition: all .5s ease-in-out
+}
+input:focus::-moz-input-placeholder
+{
+	transform: translatey(-50px);
+	opacity: 0;
+	transition: all .5s ease-in-out
+}
+input:focus::-ms-input-placeholder
+{
+	transform: translatey(-50px);
+	opacity: 0;
+	transition: all .5s ease-in-out
+}
+input:focus::input-placeholder
+{
+	transform: translatey(-50px);
+	opacity: 0;
+	transition: all .5s ease-in-out
+}
+.my-container
+{
+	width: 75%;
+	margin: 20px auto;
+}
+.head-decor
+{
+	display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-family: 'tahoma';
+    color: black
+}
+a
+{
+	color: #8ea55c
+}
+a:hover
+{
+	color: ;
+	text-decoration: none
+}
+/*Strat custom framework*/
